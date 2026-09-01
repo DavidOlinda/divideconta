@@ -1,17 +1,25 @@
-# divideconta
+# DivideConta
 
-Divida a conta do bar entre o grupo, incluindo a comissao do garcom
+**Laboratório de Aplicações Móveis Distribuídas**
+**Autor:** David Olinda Pomine
 
-## Getting Started
+App Flutter para dividir a conta de um bar entre um grupo de pessoas, incluindo a comissão do garçom no rateio final.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Informar o valor total da conta, a quantidade de pessoas e o percentual de comissão do garçom
+- Validação em tempo real dos campos, com o botão "Calcular" habilitado apenas quando todos os dados são válidos
+- Cálculo da comissão do garçom, do valor total a pagar e do valor por pessoa, formatados em R$
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Como rodar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub get
+flutter run
+```
+
+## Testes
+
+```
+flutter test
+```
